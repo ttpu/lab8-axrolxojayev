@@ -1,5 +1,6 @@
 .global 
 _start_start:
+
     MOV     R0, #0
     LDR     R1, =0x40000000
 loop:    STR     R0, [R1]
